@@ -31,6 +31,16 @@ services:
      depends_on:
        - db
        - redis
+   webapp:
+     build:
+       context: ./webapp
+       dockerfile: DockerfileFrontend
+     ports:
+       - "8080:8080"
+     container_name: webapp
+     volumes:
+       - ./webapp:/usr/src/app/webapp
+       - /usr/src/app/webapp/node_modules
    bot:
      build:
        context: ./bot
