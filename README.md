@@ -1,4 +1,4 @@
-<h1>telegram_bot_Template</h1>
+<h1>telegram_webapp_Template</h1>
 Aiogram + Fastapi on Nginx and Postgres backend + Vue + Docker
 <br>
 <br>
