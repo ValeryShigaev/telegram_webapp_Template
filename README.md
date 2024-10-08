@@ -5,7 +5,7 @@ Aiogram + Fastapi on Nginx and Postgres backend + Vue + Docker
 This is a template for creating a telegram bot with webapp that uses a fastapi + postgres backend and Vue frontend.
 <br>
 <br>
-Unfortunately, I don't have a solution for adding a webapp to a bot offline. Here you will have to use Bot Father to transfer the link to the webapp. 
+Unfortunately, I don't have a solution for adding a webapp to a bot offline. Here you will have to use Bot Father (or keyboard buttons with URL) to transfer the link to the webapp. 
 Of course, before this, the application must be deployed on the server and must be organized SSL.
 <br>
 In the web application in the HomePage component in the created() method there are a couple of lines that provide telegram ID and username.
