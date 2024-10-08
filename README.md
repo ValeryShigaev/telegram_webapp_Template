@@ -9,6 +9,7 @@ Unfortunately, I don't have a solution for adding a webapp to a bot offline. Her
 Of course, before this, the application must be deployed on the server and must be organized SSL.
 <br>
 In the web application in the HomePage component in the created() method there are a couple of lines that provide telegram ID and username.
+Telegram.org script added to index.html.
 <h2>Dependencies</h2>
 
 <ul>
